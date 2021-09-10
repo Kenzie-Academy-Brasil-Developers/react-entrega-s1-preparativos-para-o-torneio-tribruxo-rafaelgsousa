@@ -1,0 +1,53 @@
+
+.GryffindorImg{
+    border:4px solid #AE0001;
+    color: #AE0001;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.SlytherinImg{
+    border:4px solid #2A3D28;
+    color: #2A3D28;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.HufflepuffImg{
+    border:4px solid #C8AB2E;
+    color: #C8AB2E;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.RavenclawImg{
+    border:4px solid #023E73;
+    color: #023E73;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.Gryffindor{
+    color: #AE0001;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Slytherin{
+    color: #2A3D28;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Hufflepuff{
+    color: #C8AB2E;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Ravenclaw{
+    color: #023E73;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nome {
+    height: 50px;
+}
