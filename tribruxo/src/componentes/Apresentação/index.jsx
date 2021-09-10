@@ -12,10 +12,6 @@ function Apresentacao({estudantes}){
         setSegundo(estudantes.filter((e)=>e.house!==primeiro.house)[getRandomIntInclusive(0, estudantes.filter((e)=>e.house!==primeiro.house).length-1)])
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[primeiro])
-
-    /**Acima eu coloquei o primeiro no array pq foi a forma que encontrei para o set do segundo atualizar junto com
-     * o primeiro, evitando que as casas se repetissem e fiz a mesma coisa abaixo com o terceiro colocando o segundo
-     * dentro do array do useEffect*/
     
     const [terceiro,setTerceiro] = useState([])
     useEffect(()=>{
