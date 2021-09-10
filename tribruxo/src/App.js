@@ -13,11 +13,11 @@ function App() {
   const [students,SetEstudents]=useState([])
 
   function mudarTela(){
-      setChange(false)
+    setChange(false)
   }
 
   useEffect(()=> {
-    fetch("http://hp-api.herokuapp.com/api/characters/students ")
+    fetch("https://hp-api.herokuapp.com/api/characters/students ")
     .then((response)=> response.json())
     .then((response)=>SetEstudents(response))
     .catch((err)=>console.log(err))
