@@ -4,6 +4,7 @@
     background-color: #0B1413;
     padding: 20px;
     padding-top: 50px;
+    border-radius: 10px;
 }
 .start{
     background-color: #D5A32E;
@@ -22,4 +23,6 @@
 .subtitulo {
     margin-top: 100px;
     margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
 }

@@ -10,6 +10,7 @@ function Apresentacao({estudantes}){
     const [segundo,setSegundo] = useState([])
     useEffect(()=>{
         setSegundo(estudantes.filter((e)=>e.house!==primeiro.house)[getRandomIntInclusive(0, estudantes.filter((e)=>e.house!==primeiro.house).length-1)])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[primeiro])
 
     /**Acima eu coloquei o primeiro no array pq foi a forma que encontrei para o set do segundo atualizar junto com
@@ -19,6 +20,7 @@ function Apresentacao({estudantes}){
     const [terceiro,setTerceiro] = useState([])
     useEffect(()=>{
         setTerceiro(estudantes.filter((e)=>e.house!==primeiro.house).filter((e)=> e.house!==segundo.house)[getRandomIntInclusive(0, estudantes.filter((e)=>e.house!==primeiro.house).filter((e)=> e.house!==segundo.house).length-1)])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[segundo])
 
     function getRandomIntInclusive(min, max) {

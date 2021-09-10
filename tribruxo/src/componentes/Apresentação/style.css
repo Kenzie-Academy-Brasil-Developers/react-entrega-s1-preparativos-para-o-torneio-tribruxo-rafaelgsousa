@@ -1,6 +1,9 @@
 .Apresentacao {
     width: 80%;
     height: 70%;
+    background-image: url("./../../imagens/images.jpeg");
+    background-size: 100% 100%;
+    padding-right: 50px;
 }
 
 .Alunos {
@@ -22,6 +25,7 @@ button {
     padding: 5px;
     padding: 5px;
     box-shadow: 0px 4px 8px 0px #121212;
+    margin-bottom: 20px;
 }
 
 button:active{
